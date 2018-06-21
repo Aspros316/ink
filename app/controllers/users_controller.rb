@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   end
 
   def admin
-    @user = Product.new
+    @user = User.new
   end
 
 
